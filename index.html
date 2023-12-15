@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio of Sibaprasad</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5403e0d027.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/sp-logos_transparent.png" class="logo" />
+          <!-- <div class="left">Sibaprasad's Portfolio</div> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>AI/ML Engineer</p>
+          <h1>
+            Hello, It's Me <br />
+            <span>Sibaprasad</span> <br />From India
+          </h1>
+
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sibaprasad-choudhury-5a228718a"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/Siba1010"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009138328314&mibextid=ZbWKwL"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/sibaprasad_choudhury_?igshid=MTNiYzNiMzkwZA=="
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://x.com/spchoudhury_?s=09"
+              ><i class="fa-brands fa-twitter-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------about------------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/IMG_20231214_120259.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As an experienced recent post-graduate, I'm on a mission to make
+              my mark in the world of data analytics and machine learning. My
+              journey began with a strong foundation in programming, web
+              development, and project leadership. I have a relentless
+              commitment to excellence and a passion for turning data into
+              actionable insights.My days are filled with efficiently tackling
+              diverse tasks, and I thrive in high-pressure situations,
+              maintaining productivity while keeping an eye on the big picture.
+              However, my true strength lies in effective communication,
+              allowing me to build meaningful professional relationships geared
+              towards achieving exceptional results.I'm excited about the
+              transformative power of data analytics and machine learning. I
+              believe that harnessing the potential of data can drive innovation
+              and inform strategic decision-making. I'm eager to continue
+              learning, collaborating, and contributing to this dynamic field.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />Proficient in C, java,
+                  Python and SQL.
+                </li>
+                <li>
+                  <span>Data Analysis</span><br />Hands-on experience with data
+                  cleaning, preprocessing, and exploratory data analysis.
+                </li>
+                <li>
+                  <span>Data Visualization</span><br />Basic knowledge of
+                  visualization tools such as Matplotlib and Seaborn.
+                </li>
+                <li>
+                  <span>Databases</span><br />Understanding of database concepts
+                  and experience with Oracle, MySQL and MongoDB.
+                </li>
+                <li>
+                  <span>Statistical Analysis</span><br />Knowledge in
+                  statistical methods and tools to derive insights from data.
+                </li>
+                <li>
+                  <span>Machine Learning</span
+                  ><br />Regression,classification,clustering and deep learning.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li>
+                  <span>Employee management System</span><br />An Employee
+                  Management System is a software application designed to
+                  streamline and automate various human resources tasks within
+                  an organization. It facilitates the efficient management of
+                  employee information, attendance tracking, payroll processing,
+                  performance evaluations, and other HR-related functions.
+                </li>
+                <li>
+                  <span> Moving object detection using OpenCV</span
+                  ><br />Utilized OpenCV for moving object detection, employing
+                  computer vision algorithms to identify and track objects in
+                  motion within video sequences. Implemented techniques such as
+                  background subtraction, frame differencing, and contour
+                  detection to detect changes and distinguish moving objects
+                  from the background. Applied in surveillance, video analysis,
+                  and object tracking applications.
+                </li>
+                <li>
+                  <span>Sales Visualization automation using Power Query</span
+                  ><br />Developed an automated solution for sales data
+                  visualization to enhance decision-making processes.
+                </li>
+                <li>
+                  <span>Sale Prediction using LOGISTIC REGRESSION</span
+                  ><br />Sale Prediction using Logistic Regression" involves
+                  employing the logistic regression algorithm to forecast sales
+                  outcomes. This technique utilizes historical sales data and
+                  various features (such as advertising expenditure,
+                  seasonality, pricing, etc.) to create a predictive model.
+                </li>
+                <li>
+                  <span>Salary estimation using K-NEAREST NEIGHBOUR</span
+                  ><br />Designed and implemented a machine learning model to
+                  predict salary levels based on relevant features, utilizing
+                  the K-Nearest Neighbors (KNN) algorithm.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022-2024</span><br />MCA at KIIT University</li>
+                <li>
+                  <span>2019-2022</span><br />B.sc with Physics Hons at Utkal
+                  University
+                </li>
+                <li><span>2017-2019</span><br />plus2 Science</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------services-------------------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h2>Exploratory Data Analysis (EDA)</h2>
+            <p>
+              Conduct exploratory data analysis to gain insights into the
+              dataset, identify patterns, and present key findings to clients.
+            </p>
+            <a href="#"><br />Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code-compare"></i>
+            <h2>Basic Predictive Modeling</h2>
+            <p>
+              Develop and implement basic predictive models for tasks such as
+              regression or classification, depending on the client's needs.
+            </p>
+            <a href="#"><br />Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-robot"></i>
+            <h2>Automated Data Processes</h2>
+            <p>
+              Develop scripts or small automation tools to streamline repetitive
+              data tasks, enhancing efficiency in data processing.
+            </p>
+            <a href="#"><br />Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------portfolio---------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/my work img1.png" />
+            <div class="layer">
+              <h3>Moving Object detection & Tracking</h3>
+              <p>
+                Moving object detection and tracking is a specialized field
+                within computer vision that focuses on identifying and
+                monitoring objects that change their position over time in a
+                sequence of images or frames. This technology is employed in
+                diverse applications such as video surveillance, traffic
+                monitoring, and robotics.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/my work img2.png" />
+            <div class="layer">
+              <h3>Face detection & Tracking</h3>
+              <p>
+                Face detection and tracking is a specialized area within
+                computer vision that focuses on identifying human faces in
+                images or video streams and subsequently tracking their
+                movements. This technology has wide-ranging applications, from
+                facial recognition in security systems to enhancing user
+                experience in photography and video applications.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/my work img3.png" />
+            <div class="layer">
+              <h3>Titanic Survival prediction using NAIVE BAYES</h3>
+              <p>
+                Using Naive Bayes for Titanic survival prediction involves
+                applying the Naive Bayes algorithm to a dataset containing
+                information about Titanic passengers and their survival
+                outcomes.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ----------------------contact-------------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>spchoudhury1010@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>7008723976</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/sibaprasad-choudhury-5a228718a"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009138328314&mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/sibaprasad_choudhury_?igshid=MTNiYzNiMzkwZA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://x.com/spchoudhury_?s=09"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a href="https://github.com/Siba1010"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="Images/CV_2023121312410230.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023 Sibaprasad <i class="fa-solid fa-heart"></i>All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyRTqmM3mPKm9m-cWIKsPe0ZSpZ6a-M6ESWwWg7qjaZbUTPXm4e2v6WPtUzwi6-eEzL/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
